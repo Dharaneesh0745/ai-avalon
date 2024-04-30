@@ -15,7 +15,7 @@ export const metadata = {
     default: "AI Avalon",
   },
   description:
-    "A unique creative portfolio designed by CodeBucks with cutting-edge technologies like Next.js, Tailwind CSS, Three.js, and Framer Motion. Experience the art of modern web development firsthand. Checkout CodeBucks on youtube.",
+    "AI Avalon website, Designed and developed by Dharaneesh Boobalan. AI Avalon is a platform for AI enthusiasts to learn and explore AI technologies.",
 };
 
 export default function RootLayout({ children }) {
