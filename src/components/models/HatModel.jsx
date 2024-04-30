@@ -22,7 +22,7 @@ const HatModel = React.memo(function HatModel(props) {
       ref={modelRef}
       scale={[0.8, 0.8, 0.8]}
       rotation={[0.3, 0.5, 0]}
-      position={[0, -0.4, -1]}
+      position={[0, -0.9, -1]}
     >
       <group rotation={[-Math.PI / 2, 0, 0]}>
         <mesh
