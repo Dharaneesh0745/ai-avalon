@@ -114,7 +114,7 @@ export const BtnList = [
   },
   {
     label: "Magazine",
-    link: "/resume.pdf",
+    link: "/magazine.pdf",
     icon: "resume",
     newTab: true,
   },
