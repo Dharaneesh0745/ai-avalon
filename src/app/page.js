@@ -6,6 +6,7 @@ import Navigation from "@/components/navigation";
 
 import dynamic from "next/dynamic";
 import Header from "@/components/header";
+import Footer from "@/components/footer";
 const Wizard = dynamic(() => import("@/components/models/Wizard"), {
   ssr: false,
 });
@@ -28,6 +29,7 @@ export default function Home() {
         <RenderModel>
           <Wizard />
         </RenderModel>
+        <Footer />
       </div>
     </main>
   );

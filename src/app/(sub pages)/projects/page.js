@@ -5,6 +5,8 @@ import { projectsData } from "../../data";
 import RenderModel from "@/components/RenderModel";
 // import Staff from "@/components/models/Staff";
 import dynamic from "next/dynamic";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 const Staff = dynamic(() => import("@/components/models/Staff"), {
   ssr: false,
@@ -17,6 +19,7 @@ export const metadata = {
 export default function Home() {
   return (
     <>
+      <Header />
       <Image
         src={bg}
         alt="Next.js Portfolio website's about page background image"
