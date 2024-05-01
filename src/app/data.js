@@ -95,9 +95,9 @@ export const BtnList = [
   { label: "Projects", link: "/projects", icon: "projects", newTab: false },
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
   {
-    label: "Github",
-    link: "https://www.github.com",
-    icon: "github",
+    label: "Instagram",
+    link: "https://www.instagram.com",
+    icon: "instagram",
     newTab: true,
   },
   {

@@ -1,6 +1,7 @@
 import {
   Github,
   Home,
+  Instagram,
   Linkedin,
   NotebookText,
   Palette,
@@ -24,8 +25,8 @@ const getIcon = (icon) => {
       return <Palette className="w-full h-auto" strokeWidth={1.5} />;
     case "contact":
       return <Phone className="w-full h-auto" strokeWidth={1.5} />;
-    case "github":
-      return <Github className="w-full h-auto" strokeWidth={1.5} />;
+    case "instagram":
+      return <Instagram className="w-full h-auto" strokeWidth={1.5} />;
     case "linkedin":
       return <Linkedin className="w-full h-auto" strokeWidth={1.5} />;
     case "twitter":
