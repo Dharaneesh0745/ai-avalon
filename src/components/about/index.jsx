@@ -63,21 +63,27 @@ const AboutDetails = () => {
         <ItemLayout
           className={"col-span-full xs:col-span-6 lg:col-span-3 text-accent"}
         >
-          {/* <img
-            className="w-full h-auto"
-            src=""
-            alt="avalon"
-            loading="lazy"
-          /> */}
+          <Link href="" target="_blank" className="w-full">
+            <p className="font-semibold -mt-7 w-full text-center text-2xl sm:text-5xl">
+              {" "}
+              <sub className="font-semibold text-base">TECH TEAM</sub>
+            </p>
+            {/* <img
+              className="w-full h-auto"
+              src=""
+              alt="f"
+              loading="lazy"
+            /> */}
+          </Link>
         </ItemLayout>
 
         <ItemLayout
           className={"col-span-full xs:col-span-6 lg:col-span-3 text-accent"}
         >
           <Link href="" target="_blank" className="w-full">
-            <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
+            <p className="font-semibold -mt-7 w-full text-center text-2xl sm:text-5xl">
               {" "}
-              <sub className="font-semibold text-base"></sub>
+              <sub className="font-semibold text-base">ORGANIZING TEAM</sub>
             </p>
             {/* <img
               className="w-full h-auto"
@@ -91,9 +97,9 @@ const AboutDetails = () => {
           className={"col-span-full xs:col-span-6 lg:col-span-3 text-accent"}
         >
           <Link href="" target="_blank" className="w-full">
-            <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
+            <p className="font-semibold -mt-7 w-full text-center text-2xl sm:text-5xl">
               {" "}
-              <sub className="font-semibold text-base"></sub>
+              <sub className="font-semibold text-base">PROMOTION TEAM</sub>
             </p>
             {/* <img
               className="w-full h-auto"
@@ -107,9 +113,9 @@ const AboutDetails = () => {
           className={"col-span-full xs:col-span-6 lg:col-span-3 text-accent"}
         >
           <Link href="" target="_blank" className="w-full">
-            <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
+            <p className="font-semibold -mt-7 w-full text-center text-2xl sm:text-5xl">
               {" "}
-              <sub className="font-semibold text-base"></sub>
+              <sub className="font-semibold text-base">MEDIA TEAM</sub>
             </p>
             {/* <img
               className="w-full h-auto"
