@@ -11,8 +11,8 @@ const inter = Inter({
 
 export const metadata = {
   title: {
-    template: "AI Avalon",
-    default: "AI Avalon",
+    // template: "AI Avalon",
+    default: "AI Avalon | Home",
   },
   description:
     "AI Avalon website, Designed and developed by Dharaneesh Boobalan. AI Avalon is a platform for AI enthusiasts to learn and explore AI technologies.",

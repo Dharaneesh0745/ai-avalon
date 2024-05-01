@@ -11,7 +11,7 @@ const HatModel = dynamic(() => import("@/components/models/HatModel"), {
 });
 
 export const metadata = {
-  title: "About",
+  title: "AI Avalon | About",
 };
 
 export default function Home() {

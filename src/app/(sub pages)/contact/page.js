@@ -5,7 +5,7 @@ import Form from "@/components/contact/Form";
 import Header from "@/components/header";
 
 export const metadata = {
-  title: "Contact",
+  title: "AI Avalon | Contact",
 };
 
 export default function Contact() {
