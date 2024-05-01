@@ -8,23 +8,40 @@ import { useFrame } from "@react-three/fiber";
 
 const HatModel = React.memo(function HatModel(props) {
   // Use React.memo for performance optimization
-  const { nodes, materials } = useGLTF("/models/sci-fi_computer.glb");
+  const { nodes, materials } = useGLTF("/models/k-vrc.glb");
 
   const modelRef = useRef();
 
   useFrame(() => {
-    modelRef.current.rotation.y += 0.015;
+    modelRef.current.rotation.y += 0.025;
   });
   return (
     <group
       {...props}
       dispose={null}
       ref={modelRef}
-      scale={[0.8, 0.8, 0.8]}
+      scale={[2.5, 2.5, 2.5]}
       rotation={[0.3, 0.5, 0]}
       position={[0, -0.9, -1]}
     >
-      <group rotation={[-Math.PI / 2, 0, 0]}>
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_2.geometry}
+        material={materials.body}
+        rotation={[-Math.PI / 2, 0, 0]}
+      />
+
+      {/* <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_2.geometry}
+        material={materials.material_0}
+        rotation={[-Math.PI / 2, 0, 0]}
+        scale={0.466}
+      /> */}
+
+      {/* <group rotation={[-Math.PI / 2, 0, 0]}>
         <mesh
           castShadow
           receiveShadow
@@ -49,10 +66,10 @@ const HatModel = React.memo(function HatModel(props) {
           geometry={nodes.scifi_computer_keys_0.geometry}
           material={materials.keys}
         />
-      </group>
+      </group> */}
     </group>
   );
 });
 
 export default HatModel;
-useGLTF.preload("/models/sci-fi_computer.glb");
+useGLTF.preload("/models/k-vrc.glb");
